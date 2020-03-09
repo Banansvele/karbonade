@@ -1,0 +1,189 @@
+.initiallyHidden {
+  display: none;
+}
+
+input[type=button], select {
+  height: 25px;
+}
+
+body {
+  margin: 0;
+  overflow-y: scroll;
+  background-color: beige;
+}
+
+hr {
+  border-color: black;
+}
+
+textarea {
+  resize: none;
+}
+
+.playerCard {
+  border: 1px solid black;
+  width: 100px;
+  height: 122px;
+  margin: 4px;
+  display: inline-block;
+  overflow: hidden;
+  background-size: cover;
+  background-position: top center;
+  background-color: black;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.playerCardName {
+  font-family: Arial;
+  font-stretch: normal;
+  font-size: 12px;
+  padding-top: 2px;
+  max-width: 99%;
+  height: 20px;
+  border: none;
+  text-align: center;
+  background-color: inherit;
+  color: white;
+}
+
+.deletePlayerButton {
+  margin-left: 28px;
+  z-index: 100;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.deletePlayerButton:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.playerCard:hover {
+  filter: brightness(110%);
+  cursor: pointer;
+}
+
+.playerImg {
+  transform-origin: 50% 30%;
+  transform: scale(1.0);
+  pointer-events: none;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.imgWrapper {
+  overflow: hidden;
+  background-color: white;
+}
+
+.statNumber {
+  font-weight: bold;
+}
+
+#settingsPlayerName {
+  border: none;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.color1 {
+  color: #BC2026;
+}
+
+.color2 {
+  color: #EF4723;
+}
+
+.color3 {
+  color: #F68E1F;
+}
+
+.color4 {
+  color: #7DBB42;
+}
+
+.color5 {
+  color: #0F9246;
+}
+
+.color6 {
+  color: cyan;
+}
+
+#charSettings {
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: -100;
+  margin-top: -4px;
+  margin-bottom: 4px;
+  display: none;
+  padding-top: 1px;
+  width: 90%;
+  border: 1px #adadad solid;
+  /* background-color: #E1E1E1; */
+}
+
+.scene {
+  /* position:absolute; */
+  width: 100%;
+}
+
+#savedSetupsList td {
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  width: 70%;
+  height: 30px;
+}
+
+.btmHr {
+  padding-bottom: 10px;
+}
+
+.simImgWrapper {
+  background-color: white;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1px solid black;
+  width: 100px;
+  overflow: hidden;
+  background-color: white;
+  overflow: hidden;
+}
+
+.simPlayerImg {
+  transform-origin: 50% 30%;
+  transform: scale(1.0);
+  pointer-events: none;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.broadcastMsg {
+  font-size: 14px;
+  /*padding-bottom: 10px; margin-top: 7px;*/
+}
+
+.deadPlr {
+  filter: saturate(0%) brightness(70%);
+}
+
+.statBtn {
+  width: 30px
+}
+
+.importExport {
+  display: inline-block;
+  vertical-align: top;
+}
